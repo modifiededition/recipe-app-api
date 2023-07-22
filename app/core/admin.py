@@ -54,3 +54,5 @@ class UserAdmin(BaseUserAdmin):
 # if we dont we will get the default display on the admin page.
 
 admin.site.register(models.User, UserAdmin)
+admin.site.register(models.Recipe)
+
